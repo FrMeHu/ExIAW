@@ -1,0 +1,21 @@
+.cabecera{
+    /* background-color:red; */
+    /* background-image: url('/header.jpg'); */
+    background: linear-gradient(rgba(255, 255, 255, 0.721) 25%, transparent 75%),  url('/header.jpg') no-repeat center;
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width:100%;
+    text-align: center;
+    color: rgb(250, 235, 215);
+    text-shadow: -0px -0px 10px #000;  
+}
+
+@media (max-width:800px){
+    .cabecera{
+        background-color: greenyellow;
+        background-image: none;
+    }
+
+  }
